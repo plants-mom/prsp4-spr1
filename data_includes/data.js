@@ -19,7 +19,7 @@ define_ibex_controller({
 
       properties: { }
 });
-var exp = seq(sepWith("sep", seq("practice", "startexp", rshuffle(startsWith("target"), startsWith("filler")))));
+var exp = seq("practice", "startexp", sepWith("sep", seq( rshuffle(startsWith("target"), startsWith("filler")))));
 var shuffleSequence = seq("intro","instructions", exp, "sr", "end");
 var practiceItemTypes = ["practice"];
 
