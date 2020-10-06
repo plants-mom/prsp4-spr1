@@ -90,107 +90,6 @@ var items = [
                   as: ["no", "yes"]}],
 
 
-[["target-2-too-short", 2], "DashedSentence", {s: "After the meeting, Jamie interrupted Sandra to tell her about his great new idea for the Maguire project. An hour later, Jamie disturbed Sandra yet again, before heading out to buy coffee and muffins for the office."}],
-[["target-2-nil-short", 2], "DashedSentence", {s: "After the meeting, Jamie interrupted Sandra to tell her about his great new idea for the Maguire project. An hour later, Jamie finished his new plan, before heading out to buy coffee and muffins for the office."}],
-[["target-2-too-long", 2], "DashedSentence", {s: "After the meeting, Jamie interrupted Sandra to tell her about his great new idea for the Maguire project. It was certainly a challenging project for the firm but the secret to success, as he saw it, was in a newspaper-based advertisement campaign. An hour later, Jamie disturbed Sandra yet again, before heading out to buy coffee and muffins for the office."}],
-[["target-2-nil-long", 2], "DashedSentence", {s: "After the meeting, Jamie interrupted Sandra to tell her about his great new idea for the Maguire project. It was certainly a challenging project for the firm but the secret to success, as he saw it, was in a newspaper-based advertisement campaign. An hour later, Jamie finished his new plan, before heading out to buy coffee and muffins for the office."}],
-
-[["target-3-too-short", 3], "DashedSentence", {s: "Last year, the Johnson's cat Cleo gave birth to no less than ten kittens who thrived under her care. This year, Cleo had a large litter yet again but seems to be coping well nonetheless."}],
-[["target-3-nil-short", 3], "DashedSentence", {s: "Last year, the Johnson's cat Cleo gave birth to no less than ten kittens who thrived under her care. This year, Cleo had no single kitten born alive but seems to be coping well nonetheless."}],
-[["target-3-too-long", 3], "DashedSentence", {s: "Last year, the Johnson's cat Cleo gave birth to no less than ten kittens who thrived under her care. When they reached the required age, the Johnsons placed some advertisements in local newspapers and all of them found new loving owners in the local area. This year, Cleo had a large litter yet again but seems to be coping well nonetheless."}],
-[["target-3-nil-long", 3], "DashedSentence", {s: "Last year, the Johnson's cat Cleo gave birth to no less than ten kittens who thrived under her care. When they reached the required age, the Johnsons placed some advertisements in local newspapers and all of them found new loving owners in the local area. This year, Cleo had no single kitten born alive but seems to be coping well nonetheless."}],
-
-
-
-
-
-[["target-8-too-short", 8], "DashedSentence", {s: "When his parents had gone skiing six months ago, Joe hosted a party at their home, inviting friends from both school and his tennis club. This break, Joe held a party yet again but then took a plane to Mexico to join his parents."}],
-[["target-8-nil-short", 8], "DashedSentence", {s: "When his parents had gone skiing six months ago, Joe hosted a party at their home, inviting friends from both school and his tennis club. This break, Joe had to study for exams but then took a plane to Mexico to join his parents."}],
-[["target-8-too-long", 8], "DashedSentence", {s: "When his parents had gone skiing six months ago, Joe hosted a party at their home, inviting friends from both school and his tennis club. Whilst few individuals from either of the two groups had known each other before the evening, everybody seemed to get on really well. This break, Joe held a party yet again but then took a plane to Mexico to join his parents."}],
-[["target-8-nil-long", 8], "DashedSentence", {s: "When his parents had gone skiing six months ago, Joe hosted a party at their home, inviting friends from both school and his tennis club. Whilst few individuals from either of the two groups had known each other before the evening, everybody seemed to get on really well. This break, Joe had to study for exams but then took a plane to Mexico to join his parents."}],
-
-[["target-9-too-short", 9], "DashedSentence", {s: "On the second leg of his cycle trip, Tim got a puncture and had to take a break. Later that day, Tim got a flat tire yet again, but after that everything went smoothly for the rest of the week."}],
-[["target-9-nil-short", 9], "DashedSentence", {s: "On the second leg of his cycle trip, Tim got a puncture and had to take a break. Later that day, Tim had to repair his back brakes, but after that everything went smoothly for the rest of the week."}],
-[["target-9-too-long", 9], "DashedSentence", {s: "On the second leg of his cycle trip, Tim got a puncture and had to take a break. Luckily, he had packed his trusted, old repair kit and used the opportunity to have an early lunch and update his blog. Later that day, Tim got a flat tire yet again, but after that everything went smoothly for the rest of the week."}],
-[["target-9-nil-long", 9], "DashedSentence", {s: "On the second leg of his cycle trip, Tim got a puncture and had to take a break. Luckily, he had packed his trusted, old repair kit and used the opportunity to have an early lunch and update his blog. Later that day, Tim had to repair his back brakes, but after that everything went smoothly for the rest of the week."}],
-
-
-
-
-
-[["target-14-too-short", 14], "DashedSentence", {s: "Normally, Jenny considered herself a very lucky person but two months ago she fell ill and had to take a week off work. However, last week, Jenny got sick yet again, which made her really hope that no more misfortune was in store for her that year."}],
-[["target-14-nil-short", 14], "DashedSentence", {s: "Normally, Jenny considered herself a very lucky person but two months ago she fell ill and had to take a week off work. However, last week, Jenny got her keys stolen, which made her really hope that no more misfortune was in store for her that year."}],
-[["target-14-too-long", 14], "DashedSentence", {s: "Normally, Jenny considered herself a very lucky person but two months ago she fell ill and had to take a week off work. At least the time out of the office had given her some opportunities to reflect on all the happenings over the past year. However, last week, Jenny got sick yet again, which made her really hope that no more misfortune was in store for her that year."}],
-[["target-14-nil-long", 14], "DashedSentence", {s: "Normally, Jenny considered herself a very lucky person but two months ago she fell ill and had to take a week off work. At least the time out of the office had given her some opportunities to reflect on all the happenings over the past year. However, last week, Jenny got her keys stolen, which made her really hope that no more misfortune was in store for her that year."}],
-
-
-[["target-16-too-short", 16], "DashedSentence", {s: "Last year, after much encouragement from various colleagues, Will took part in the waltz in the company's annual charity show at the local theater. At this year's show, Will danced yet again but otherwise did his best to keep a low profile by volunteering at the refreshment stand."}],
-[["target-16-nil-short", 16], "DashedSentence", {s: "Last year, after much encouragement from various colleagues, Will took part in the waltz in the company's annual charity show at the local theater. At this year's show, Will joined the choir but otherwise did his best to keep a low profile by volunteering at the refreshment stand."}],
-[["target-16-too-long", 16], "DashedSentence", {s: "Last year, after much encouragement from various colleagues, Will took part in the waltz in the company's annual charity show at the local theater. The show was a long-standing company tradition and helped to raise funds for the two hospices in the area and a local homelessness project. At this year's show, Will danced yet again but otherwise did his best to keep a low profile by volunteering at the refreshment stand."}],
-[["target-16-nil-long", 16], "DashedSentence", {s: "Last year, after much encouragement from various colleagues, Will took part in the waltz in the company's annual charity show at the local theater. The show was a long-standing company tradition and helped to raise funds for the two hospices in the area and a local homelessness project. At this year's show, Will joined the choir but otherwise did his best to keep a low profile by volunteering at the refreshment stand."}],
-
-
-[["target-18-too-short", 18], "DashedSentence", {s: "In the spring, Zoe had been traveling with her boyfriend Jake to celebrate the end of the college year. In the summer, Zoe took a trip yet again but after that she cut her spending and lived quite frugally for the rest of the year."}],
-[["target-18-nil-short", 18], "DashedSentence", {s: "In the spring, Zoe had been traveling with her boyfriend Jake to celebrate the end of the college year. In the summer, Zoe bought an expensive new laptop but after that she cut her spending and lived quite frugally for the rest of the year."}],
-[["target-18-too-long", 18], "DashedSentence", {s: "In the spring, Zoe had been traveling with her boyfriend Jake to celebrate the end of the college year. More specifically, they had been to Germany to visit Jake's sister and her family in Munich before heading to Berlin for some sightseeing. In the summer, Zoe took a trip yet again but after that she cut her spending and lived quite frugally for the rest of the year."}],
-[["target-18-nil-long", 18], "DashedSentence", {s: "In the spring, Zoe had been traveling with her boyfriend Jake to celebrate the end of the college year. More specifically, they had been to Germany to visit Jake's sister and her family in Munich before heading to Berlin for some sightseeing. In the summer, Zoe bought an expensive new laptop but after that she cut her spending and lived quite frugally for the rest of the year."}],
-
-
-
-[["target-21-too-short", 21], "DashedSentence", {s: "There was something very odd about Arthur today. As he did so, he had started to mutter something completely indecipherable and rock from side to side as if highly agitated. Then, later, when we met in the cafeteria, Arthur apologized yet again before proceeding to burst into tears."}],
-[["target-21-nil-short", 21], "DashedSentence", {s: "There was something very odd about Arthur today. As he did so, he had started to mutter something completely indecipherable and rock from side to side as if highly agitated. Then, later, when we met in the cafeteria, Arthur spilt his coffee before proceeding to burst into tears."}],
-[["target-21-too-long", 21], "DashedSentence", {s: "There was something very odd about Arthur today. This morning, when we met at the photocopier, he said sorry to me for no apparent reason whatsoever. As he did so, he had started to mutter something completely indecipherable and rock from side to side as if highly agitated. Then, later, when we met in the cafeteria, Arthur apologized yet again before proceeding to burst into tears."}],
-[["target-21-nil-long", 21], "DashedSentence", {s: "There was something very odd about Arthur today. This morning, when we met at the photocopier, he said sorry to me for no apparent reason whatsoever. As he did so, he had started to mutter something completely indecipherable and rock from side to side as if highly agitated. Then, later, when we met in the cafeteria, Arthur spilt his coffee before proceeding to burst into tears."}],
-
-
-
-[["target-24-too-short", 24], "DashedSentence", {s: "For breakfast, Frank had eaten a double chocolate chip muffin and then skipped lunch. Later, Frank ate a high calorie snack yet again and pondered on what his physician would think about the day's menu so far."}],
-[["target-24-nil-short", 24], "DashedSentence", {s: "For breakfast, Frank had eaten a double chocolate chip muffin and then skipped lunch. Later, Frank ate some healthy grilled fish with salad and pondered on what his physician would think about the day's menu so far."}],
-[["target-24-too-long", 24], "DashedSentence", {s: "For breakfast, Frank had eaten a double chocolate chip muffin and then skipped lunch. It was a shame as he had made some progress on the robbery case that morning and had wished to share it with them. Later, Frank ate a high calorie snack yet again and pondered on what his physician would think about the day's menu so far."}],
-[["target-24-nil-long", 24], "DashedSentence", {s: "For breakfast, Frank had eaten a double chocolate chip muffin and then skipped lunch. It was a shame as he had made some progress on the robbery case that morning and had wished to share it with them. Later, Frank ate some healthy grilled fish with salad and pondered on what his physician would think about the day's menu so far."}],
-
-
-[["filler-25", 25], "DashedSentence", {s: "Emica went out with friends. They decided to go to a bar. Emica did not like the music there. She stayed outside and started talking with strangers and having fun on her own."}],
-
-
-
-
-
-[["filler-30", 30], "DashedSentence", {s: "Jimmy felt bad. A week ago his colleague was injured at work. Jimmy knew he should visit her at the hospital but he could not force himself to do it."}],
-
-[["filler-31", 31], "DashedSentence", {s: "Kima was mad at herself. She suspected the package would fall off without the additional tape. Now it was too late."}],
-
-[["filler-32", 32], "DashedSentence", {s: "Roland got used to office work. It shocked him when it turned out he was recommended for fieldwork."}],
-
-[["filler-33", 33], "DashedSentence", {s: "Ronnie shut the door behind her. She was extremely proud of herself. She would remember this conversation for a long time."}],
-
-[["filler-34", 34], "DashedSentence", {s: "Bill sat in the corner. He was very lucky his employee did not see him. He should have been more careful."}],
-
-[["filler-35", 35], "DashedSentence", {s: "Alyson finished her drink. She waited another quarter of an hour. Jake did not show up. She started realizing her client must have been hiding something."}],
-
-[["filler-36", 36], "DashedSentence", {s: "Tanya who her mother sent to do the groceries was angry. She felt it was her sister's turn to do them."}],
-
-[["filler-37", 37], "DashedSentence", {s: "Phil had been driving for hours. He badly needed to sleep. But he was nowhere near home yet."}],
-
-[["filler-38", 38], "DashedSentence", {s: "Raj who Sneha woke up in the morning was tired. Sneha knew it would turn out like that but she had no choice."}],
-
-[["filler-39", 39], "DashedSentence", {s: "Louis went to his favorite coffee place. He ordered a cappuccino and drank it on his way to work. He was disappointed that the coffee wasn't really hot."}],
-
-[["filler-40", 40], "DashedSentence", {s: "Shruti felt very good this morning. Shruti's sister who her friend drove to the house yesterday was finally here."}],
-
-
-
-[["filler-43", 43], "DashedSentence", {s: "Milena was crying. She had fallen off her bike. Her knee was bleeding a little bit."}],
-
-[["filler-44", 44], "DashedSentence", {s: "Omkar was amazed. The peanuts his brother who worked at a farm brought today were spectacular. He never ate anything like that."}],
-
-[["filler-45", 45], "DashedSentence", {s: "The chickens that Sally who was easily excited observed were spectacular. Everyone should look at them."}],
-
-[["filler-46", 46], "DashedSentence", {s: "It turned out there was no road work ahead. Vivek who his mother let drive was a little disappointed. He wanted to see the hole in the ground."}],
-
-[["filler-47", 47], "DashedSentence", {s: "Marc loves reading. He reads several books a week. He rarely buys books though. He frequently visits his local library."}],
-
-[["filler-48", 48], "DashedSentence", {s: "Eve was sad. The glass that she thought she put somewhere safe had fallen down and were now broken. She did not have any glasses anymore which was ridiculous."}],
 
 [["target-1-too-short", 1], "DashedSentence", {s: "In June last year, John won the 100m final at the state inter-collegiate athletics competition. This year, John took gold yet again, greatly disappointing his fellow competitors who had so wanted to beat him."}, "Question", {q: "In what discipline does John compete?", as: ["Running", "Swimming"]}],
 [["target-1-nil-short", 1], "DashedSentence", {s: "In June last year, John won the 100m final at the state inter-collegiate athletics competition. This year, John was unable to attend, greatly disappointing his fellow competitors who had so wanted to beat him."}, "Question", {q: "In what discipline does John compete?", as: ["Running", "Swimming"]}],
@@ -302,10 +201,10 @@ var items = [
 [["target-22-too-long", 22], "DashedSentence", {s: "As a young girl peered into the red panda enclosure, one of the animals squeaked, causing her to wrap herself around her father's legs. Her father gave her a gentle pat on the shoulder, gazed comfortingly into her small eyes and reassured her that everything would be fine. Then, the panda made a noise yet again and, too scared by these small creatures, the young girl wandered off to see if the Bengali tigers were any better behaved."}, "Question", {q: "What kind of animals is the story about?", as: ["Mammals", "Reptiles"]}],
 [["target-22-nil-long", 22], "DashedSentence", {s: "As a young girl peered into the red panda enclosure, one of the animals squeaked, causing her to wrap herself around her father's legs. Her father gave her a gentle pat on the shoulder, gazed comfortingly into her small eyes and reassured her that everything would be fine. Then, the panda stretched out its front paws and, too scared by these small creatures, the young girl wandered off to see if the Bengali tigers were any better behaved."}, "Question", {q: "What kind of animals is the story about?", as: ["Mammals", "Reptiles"]}],
 
-[["target-23-too-short", 23], "DashedSentence", {s: "For the first part of his trip, Walter got a taxi from the airport to the city, despite the high expense. The next day, Walter got a cab yet again in order to reach his next destination on the coast."}, "Question", {q: "What mean of transportation did Walter take?", as: ["Car", "Boat"]}],
-[["target-23-nil-short", 23], "DashedSentence", {s: "For the first part of his trip, Walter got a taxi from the airport to the city, despite the high expense. The next day, Walter got the light rail in order to reach his next destination on the coast."}, "Question", {q: "What mean of transportation did Walter take?", as: ["Car", "Boat"]}],
-[["target-23-too-long", 23], "DashedSentence", {s: "For the first part of his trip, Walter got a taxi from the airport to the city, despite the high expense. At least the driver had been very friendly, inquiring how his flight had been and giving him various sightseeing tips for his stay. The next day, Walter got a cab yet again in order to reach his next destination on the coast."}, "Question", {q: "What mean of transportation did Walter take?", as: ["Car", "Boat"]}],
-[["target-23-nil-long", 23], "DashedSentence", {s: "For the first part of his trip, Walter got a taxi from the airport to the city, despite the high expense. At least the driver had been very friendly, inquiring how his flight had been and giving him various sightseeing tips for his stay. The next day, Walter got the light rail in order to reach his next destination on the coast."}, "Question", {q: "What mean of transportation did Walter take?", as: ["Car", "Boat"]}],
+[["target-23-too-short", 23], "DashedSentence", {s: "For the first part of his trip, Walter got a taxi from the airport to the city, despite the high expense. The next day, Walter got a cab yet again in order to reach his next destination on the coast."}, "Question", {q: "Which of these two means of transportation did Walter use?", as: ["Car", "Boat"]}],
+[["target-23-nil-short", 23], "DashedSentence", {s: "For the first part of his trip, Walter got a taxi from the airport to the city, despite the high expense. The next day, Walter got the light rail in order to reach his next destination on the coast."}, "Question", {q: "Which of these two means of transportation did Walter use?", as: ["Car", "Boat"]}],
+[["target-23-too-long", 23], "DashedSentence", {s: "For the first part of his trip, Walter got a taxi from the airport to the city, despite the high expense. At least the driver had been very friendly, inquiring how his flight had been and giving him various sightseeing tips for his stay. The next day, Walter got a cab yet again in order to reach his next destination on the coast."}, "Question", {q: "Which of these two means of transportation did Walter use?", as: ["Car", "Boat"]}],
+[["target-23-nil-long", 23], "DashedSentence", {s: "For the first part of his trip, Walter got a taxi from the airport to the city, despite the high expense. At least the driver had been very friendly, inquiring how his flight had been and giving him various sightseeing tips for his stay. The next day, Walter got the light rail in order to reach his next destination on the coast."}, "Question", {q: "Which of these two means of transportation did Walter use?", as: ["Car", "Boat"]}],
 
 [["target-24-too-short", 24], "DashedSentence", {s: "For breakfast, Frank had eaten a double chocolate chip muffin and then skipped lunch. Later, Frank ate a high calorie snack yet again and pondered on what his physician would think about the day's menu so far."}],
 [["target-24-nil-short", 24], "DashedSentence", {s: "For breakfast, Frank had eaten a double chocolate chip muffin and then skipped lunch. Later, Frank ate some healthy grilled fish with salad and pondered on what his physician would think about the day's menu so far."}],
@@ -362,6 +261,4 @@ var items = [
 [["filler-48", 48], "DashedSentence", {s: "Eve was sad. The glass that she thought she put somewhere safe had fallen down and were now broken. She did not have any glasses anymore which was ridiculous."}],
 
 
-
 ];
-
