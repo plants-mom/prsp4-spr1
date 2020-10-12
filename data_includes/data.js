@@ -80,7 +80,7 @@ var items = [
 
 
     ["practice", "MyPractice", {html: "<p style=\"text-align: center\">Use the spacebar to read the sentence.</p>",
-                                s: "There is a nurse who nurses all the nurses who don't nurse themselves."},
+                                s: "Luna is content with her dog Arrow and her cat Nobody."},
      "Message", {html: "Some of the sentences will be quite complicated. Make sure you understand the sentence, because sometimes you will be asked a question about the sentence you read. If you answer incorrectly you will be notified about that."}
                                  ],
 
@@ -91,20 +91,21 @@ var items = [
 
 
 
+
 [["target-1-too-short", 1], "DashedSentence", {s: "In June last year, John won the 100m final at the state inter-collegiate athletics competition. This year, John took gold yet again, greatly disappointing his fellow competitors who had so wanted to beat him."}, "Question", {q: "In what discipline does John compete?", as: ["Running", "Swimming"]}],
 [["target-1-nil-short", 1], "DashedSentence", {s: "In June last year, John won the 100m final at the state inter-collegiate athletics competition. This year, John was unable to attend, greatly disappointing his fellow competitors who had so wanted to beat him."}, "Question", {q: "In what discipline does John compete?", as: ["Running", "Swimming"]}],
 [["target-1-too-long", 1], "DashedSentence", {s: "In June last year, John won the 100m final at the state inter-collegiate athletics competition. This was despite other runners, notably Charles Roberts and Steven Jones, improving significantly on their training times and having high hopes of clinching the title. This year, John took gold yet again, greatly disappointing his fellow competitors who had so wanted to beat him."}, "Question", {q: "In what discipline does John compete?", as: ["Running", "Swimming"]}],
 [["target-1-nil-long", 1], "DashedSentence", {s: "In June last year, John won the 100m final at the state inter-collegiate athletics competition. This was despite other runners, notably Charles Roberts and Steven Jones, improving significantly on their training times and having high hopes of clinching the title. This year, John was unable to attend, greatly disappointing his fellow competitors who had so wanted to beat him."}, "Question", {q: "In what discipline does John compete?", as: ["Running", "Swimming"]}],
 
-[["target-2-too-short", 2], "DashedSentence", {s: "After the meeting, Jamie interrupted Sandra to tell her about his great new idea for the Maguire project. An hour later, Jamie disturbed Sandra yet again, before heading out to buy coffee and muffins for the office."}],
-[["target-2-nil-short", 2], "DashedSentence", {s: "After the meeting, Jamie interrupted Sandra to tell her about his great new idea for the Maguire project. An hour later, Jamie finished his new plan, before heading out to buy coffee and muffins for the office."}],
-[["target-2-too-long", 2], "DashedSentence", {s: "After the meeting, Jamie interrupted Sandra to tell her about his great new idea for the Maguire project. It was certainly a challenging project for the firm but the secret to success, as he saw it, was in a newspaper-based advertisement campaign. An hour later, Jamie disturbed Sandra yet again, before heading out to buy coffee and muffins for the office."}],
-[["target-2-nil-long", 2], "DashedSentence", {s: "After the meeting, Jamie interrupted Sandra to tell her about his great new idea for the Maguire project. It was certainly a challenging project for the firm but the secret to success, as he saw it, was in a newspaper-based advertisement campaign. An hour later, Jamie finished his new plan, before heading out to buy coffee and muffins for the office."}],
+[["target-2-too-short", 2], "DashedSentence", {s: "After the meeting, Jamie interrupted Sandra to tell her about his great new idea for the Maguire project. An hour later, Jamie disturbed Sandra yet again, before heading out to buy coffee and muffins for the office."}, "Question", {q: "Why did Jamie interrupt Sandra for the first time?", as: ["To share a plan.", "To show her some pictures."]}],
+[["target-2-nil-short", 2], "DashedSentence", {s: "After the meeting, Jamie interrupted Sandra to tell her about his great new idea for the Maguire project. An hour later, Jamie finished his new plan, before heading out to buy coffee and muffins for the office."}, "Question", {q: "Why did Jamie interrupt Sandra for the first time?", as: ["To share a plan.", "To show her some pictures."]}],
+[["target-2-too-long", 2], "DashedSentence", {s: "After the meeting, Jamie interrupted Sandra to tell her about his great new idea for the Maguire project. It was certainly a challenging project for the firm but the secret to success, as he saw it, was in a newspaper-based advertisement campaign. An hour later, Jamie disturbed Sandra yet again, before heading out to buy coffee and muffins for the office."}, "Question", {q: "Why did Jamie interrupt Sandra for the first time?", as: ["To share a plan.", "To show her some pictures."]}],
+[["target-2-nil-long", 2], "DashedSentence", {s: "After the meeting, Jamie interrupted Sandra to tell her about his great new idea for the Maguire project. It was certainly a challenging project for the firm but the secret to success, as he saw it, was in a newspaper-based advertisement campaign. An hour later, Jamie finished his new plan, before heading out to buy coffee and muffins for the office."}, "Question", {q: "Why did Jamie interrupt Sandra for the first time?", as: ["To share a plan.", "To show her some pictures."]}],
 
-[["target-3-too-short", 3], "DashedSentence", {s: "Last year, the Johnson's cat Cleo gave birth to no less than ten kittens who thrived under her care. This year, Cleo had a large litter yet again but seems to be coping well nonetheless."}],
-[["target-3-nil-short", 3], "DashedSentence", {s: "Last year, the Johnson's cat Cleo gave birth to no less than ten kittens who thrived under her care. This year, Cleo had no single kitten born alive but seems to be coping well nonetheless."}],
-[["target-3-too-long", 3], "DashedSentence", {s: "Last year, the Johnson's cat Cleo gave birth to no less than ten kittens who thrived under her care. When they reached the required age, the Johnsons placed some advertisements in local newspapers and all of them found new loving owners in the local area. This year, Cleo had a large litter yet again but seems to be coping well nonetheless."}],
-[["target-3-nil-long", 3], "DashedSentence", {s: "Last year, the Johnson's cat Cleo gave birth to no less than ten kittens who thrived under her care. When they reached the required age, the Johnsons placed some advertisements in local newspapers and all of them found new loving owners in the local area. This year, Cleo had no single kitten born alive but seems to be coping well nonetheless."}],
+[["target-3-too-short", 3], "DashedSentence", {s: "Last year, the Johnson's cat Cleo gave birth to no less than ten kittens who thrived under her care. This year, Cleo had a large litter yet again but seems to be coping well nonetheless."}, "Question", {q: "What is the name of the Johnson's cat?", as: ["Cleo", "Circe"]}],
+[["target-3-nil-short", 3], "DashedSentence", {s: "Last year, the Johnson's cat Cleo gave birth to no less than ten kittens who thrived under her care. This year, Cleo had no single kitten born alive but seems to be coping well nonetheless."}, "Question", {q: "What is the name of the Johnson's cat?", as: ["Cleo", "Circe"]}],
+[["target-3-too-long", 3], "DashedSentence", {s: "Last year, the Johnson's cat Cleo gave birth to no less than ten kittens who thrived under her care. When they reached the required age, the Johnsons placed some advertisements in local newspapers and all of them found new loving owners in the local area. This year, Cleo had a large litter yet again but seems to be coping well nonetheless."}, "Question", {q: "What is the name of the Johnson's cat?", as: ["Cleo", "Circe"]}],
+[["target-3-nil-long", 3], "DashedSentence", {s: "Last year, the Johnson's cat Cleo gave birth to no less than ten kittens who thrived under her care. When they reached the required age, the Johnsons placed some advertisements in local newspapers and all of them found new loving owners in the local area. This year, Cleo had no single kitten born alive but seems to be coping well nonetheless."}, "Question", {q: "What is the name of the Johnson's cat?", as: ["Cleo", "Circe"]}],
 
 [["target-4-too-short", 4], "DashedSentence", {s: "When their master put out the dogs' morning food bowls, Rex was the quickest eater. In the evening, Rex ate the fastest yet again, signaling it was high time, the others thought for their new companion to learn some manners."}, "Question", {q: "What kind of an animal Rex is?", as: ["Dog", "Cat"]}],
 [["target-4-nil-short", 4], "DashedSentence", {s: "When their master put out the dogs' morning food bowls, Rex was the quickest eater. In the evening, Rex ate from someone else's bowl, signaling it was high time, the others thought for their new companion to learn some manners."}, "Question", {q: "What kind of an animal Rex is?", as: ["Dog", "Cat"]}],
@@ -126,10 +127,10 @@ var items = [
 [["target-7-too-long", 7], "DashedSentence", {s: "In Level 1 of the manufacturer's latest game, players must defeat three zombies after uncovering a hidden entrance. As such, this marks a notable departure from the manufacturer's previous games which are all set in real-life historical battles rather than the supernatural. In Level 2, the objective is to beat zombies yet again, this time tackling a range of difficult and nerve-wracking challenges."}, "Question", {q: "Does the game contain monsters of any kind?", as: ["Yes", "No"]}],
 [["target-7-nil-long", 7], "DashedSentence", {s: "In Level 1 of the manufacturer's latest game, players must defeat three zombies after uncovering a hidden entrance. As such, this marks a notable departure from the manufacturer's previous games which are all set in real-life historical battles rather than the supernatural. In Level 2, the objective is to find an army of ghosts, this time tackling a range of difficult and nerve-wracking challenges."}, "Question", {q: "Does the game contain monsters of any kind?", as: ["Yes", "No"]}],
 
-[["target-8-too-short", 8], "DashedSentence", {s: "When his parents had gone skiing six months ago, Joe hosted a party at their home, inviting friends from both school and his tennis club. This break, Joe held a party yet again but then took a plane to Mexico to join his parents."}],
-[["target-8-nil-short", 8], "DashedSentence", {s: "When his parents had gone skiing six months ago, Joe hosted a party at their home, inviting friends from both school and his tennis club. This break, Joe had to study for exams but then took a plane to Mexico to join his parents."}],
-[["target-8-too-long", 8], "DashedSentence", {s: "When his parents had gone skiing six months ago, Joe hosted a party at their home, inviting friends from both school and his tennis club. Whilst few individuals from either of the two groups had known each other before the evening, everybody seemed to get on really well. This break, Joe held a party yet again but then took a plane to Mexico to join his parents."}],
-[["target-8-nil-long", 8], "DashedSentence", {s: "When his parents had gone skiing six months ago, Joe hosted a party at their home, inviting friends from both school and his tennis club. Whilst few individuals from either of the two groups had known each other before the evening, everybody seemed to get on really well. This break, Joe had to study for exams but then took a plane to Mexico to join his parents."}],
+[["target-8-too-short", 8], "DashedSentence", {s: "When his parents had gone skiing six months ago, Joe hosted a party at their home, inviting friends from both school and his tennis club. This break, Joe held a party yet again but then took a plane to Mexico to join his parents."}, "Question", {q: "What were Joe's parents doing a few months ago?", as: ["Skiing", "Scuba-diving"]}],
+[["target-8-nil-short", 8], "DashedSentence", {s: "When his parents had gone skiing six months ago, Joe hosted a party at their home, inviting friends from both school and his tennis club. This break, Joe had to study for exams but then took a plane to Mexico to join his parents."}, "Question", {q: "What were Joe's parents doing a few months ago?", as: ["Skiing", "Scuba-diving"]}],
+[["target-8-too-long", 8], "DashedSentence", {s: "When his parents had gone skiing six months ago, Joe hosted a party at their home, inviting friends from both school and his tennis club. Whilst few individuals from either of the two groups had known each other before the evening, everybody seemed to get on really well. This break, Joe held a party yet again but then took a plane to Mexico to join his parents."}, "Question", {q: "What were Joe's parents doing a few months ago?", as: ["Skiing", "Scuba-diving"]}],
+[["target-8-nil-long", 8], "DashedSentence", {s: "When his parents had gone skiing six months ago, Joe hosted a party at their home, inviting friends from both school and his tennis club. Whilst few individuals from either of the two groups had known each other before the evening, everybody seemed to get on really well. This break, Joe had to study for exams but then took a plane to Mexico to join his parents."}, "Question", {q: "What were Joe's parents doing a few months ago?", as: ["Skiing", "Scuba-diving"]}],
 
 [["target-9-too-short", 9], "DashedSentence", {s: "On the second leg of his cycle trip, Tim got a puncture and had to take a break. Later that day, Tim got a flat tire yet again, but after that everything went smoothly for the rest of the week."}],
 [["target-9-nil-short", 9], "DashedSentence", {s: "On the second leg of his cycle trip, Tim got a puncture and had to take a break. Later that day, Tim had to repair his back brakes, but after that everything went smoothly for the rest of the week."}],
@@ -212,7 +213,7 @@ var items = [
 [["target-24-nil-long", 24], "DashedSentence", {s: "For breakfast, Frank had eaten a double chocolate chip muffin and then skipped lunch. It was a shame as he had made some progress on the robbery case that morning and had wished to share it with them. Later, Frank ate some healthy grilled fish with salad and pondered on what his physician would think about the day's menu so far."}],
 
 
-[["filler-25", 25], "DashedSentence", {s: "Emica went out with friends. They decided to go to a bar. Emica did not like the music there. She stayed outside and started talking with strangers and having fun on her own."}],
+[["filler-25", 25], "DashedSentence", {s: "Emica went out with friends. They decided to go to a bar. Emica did not like the music there. She stayed outside and started talking with strangers and having fun on her own."}, "Question", {q: "What was the reason Emica stayed outside?", as: ["Music", "People"]}],
 
 [["filler-26", 26], "DashedSentence", {s: "Itsuki was not happy about a skirt that he was sewing. He had a dream about colors last night. The dream made him very unsure about the colors he had chosen initially."}, "Question", {q: "Was Itsuki dream about animals?", as: ["No", "Yes"]}],
 
@@ -234,13 +235,13 @@ var items = [
 
 [["filler-35", 35], "DashedSentence", {s: "Alyson finished her drink. She waited another quarter of an hour. Jake did not show up. She started realizing her client must have been hiding something."}],
 
-[["filler-36", 36], "DashedSentence", {s: "Tanya who her mother sent to do the groceries was angry. She felt it was her sister's turn to do them."}],
+[["filler-36", 36], "DashedSentence", {s: "Tanya who her mother sent to do the groceries was angry. She felt it was her sister's turn to do them."}, "Question", {q: "Is Tanya an only child?", as: ["No", "Yes"]}],
 
-[["filler-37", 37], "DashedSentence", {s: "Phil had been driving for hours. He badly needed to sleep. But he was nowhere near home yet."}],
+[["filler-37", 37], "DashedSentence", {s: "Phil had been driving for hours. He badly needed to sleep. But he was nowhere near home yet."}, "Question", {q: "Was Phil far from home?", as: ["Yes", "No"]}],
 
 [["filler-38", 38], "DashedSentence", {s: "Raj who Sneha woke up in the morning was tired. Sneha knew it would turn out like that but she had no choice."}],
 
-[["filler-39", 39], "DashedSentence", {s: "Louis went to his favorite coffee place. He ordered a cappuccino and drank it on his way to work. He was disappointed that the coffee wasn't really hot."}],
+[["filler-39", 39], "DashedSentence", {s: "Louis went to his favorite coffee place. He ordered a cappuccino and drank it on his way to work. He was disappointed that the coffee wasn't really hot."}, "Question", {q: "How did the coffee make Louis feel?", as: ["Upset", "Content"]}],
 
 [["filler-40", 40], "DashedSentence", {s: "Shruti felt very good this morning. Shruti's sister who her friend drove to the house yesterday was finally here."}],
 
@@ -256,9 +257,9 @@ var items = [
 
 [["filler-46", 46], "DashedSentence", {s: "It turned out there was no road work ahead. Vivek who his mother let drive was a little disappointed. He wanted to see the hole in the ground."}],
 
-[["filler-47", 47], "DashedSentence", {s: "Marc loves reading. He reads several books a week. He rarely buys books though. He frequently visits his local library."}],
+[["filler-47", 47], "DashedSentence", {s: "Marc loves reading. He reads several books a week. He rarely buys books though. He frequently visits his local library."}, "Question", {q: "Does Marc buy book often?", as: ["No", "Yes"]}],
 
-[["filler-48", 48], "DashedSentence", {s: "Eve was sad. The glass that she thought she put somewhere safe had fallen down and were now broken. She did not have any glasses anymore which was ridiculous."}],
+[["filler-48", 48], "DashedSentence", {s: "Eve was sad. The glass that she thought she put somewhere safe had fallen down and were now broken. She did not have any glasses anymore which was ridiculous."}, "Question", {q: "Does Eve run out of glasses?", as: ["Yes", "No"]}],
 
 
 ];
